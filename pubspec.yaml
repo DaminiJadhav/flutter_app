@@ -37,6 +37,7 @@ dependencies:
   firebase_database: ^4.1.1
   cloud_firestore: ^0.14.1+3
   lottie: ^1.0.1
+  flutter_sequence_animation: ^3.0.1
 #  intl: ^0.16.1
 
 
@@ -72,12 +73,16 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+     - family: Charlotte
+       fonts:
+         - asset: assets/font/Charlotte Southern.ttf
+           weight: 300
+#     - family: Schyler
+#       fonts:
+#         - asset: fonts/Schyler-Regular.ttf
+#         - asset: fonts/Schyler-Italic.ttf
+#           style: italic
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

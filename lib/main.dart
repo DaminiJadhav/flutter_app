@@ -1,10 +1,14 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/animationexamples/AnimationExample2.dart';
+import 'package:flutter_app/animationexamples/AnimationLogoExample.dart';
 import 'package:flutter_app/animationexamples/LottieAnimationExample.dart';
 import 'package:flutter_app/animationexamples/LottieAnimationSplashSCreen.dart';
+import 'package:flutter_app/animationexamples/animation_example1.dart';
 import 'package:flutter_app/firebase_database/FirebaseOTPExample.dart';
 import 'package:flutter_app/firebase_database/MyFirebaseDemo.dart';
+import 'package:flutter_app/fontexamples/FontExample.dart';
 import 'package:flutter_app/razorpay_example/RazorpayExample.dart';
 
 void main() async{
@@ -32,7 +36,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: FirebaseOTPExample(),
+      home: FontExample(),
       // home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
