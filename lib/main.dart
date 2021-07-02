@@ -9,7 +9,19 @@ import 'package:flutter_app/animationexamples/animation_example1.dart';
 import 'package:flutter_app/firebase_database/FirebaseOTPExample.dart';
 import 'package:flutter_app/firebase_database/MyFirebaseDemo.dart';
 import 'package:flutter_app/fontexamples/FontExample.dart';
+import 'package:flutter_app/getimage/GetImageScreen.dart';
+import 'package:flutter_app/pdf/pdfScreen.dart';
 import 'package:flutter_app/razorpay_example/RazorpayExample.dart';
+import 'package:flutter_app/widget/bottomappbar/BottomNavigationBar1.dart';
+import 'package:flutter_app/widget/bottomappbar/BottomSheetUsingPaint.dart';
+import 'package:flutter_app/widget/bottomappbar/CustombottomAppBar.dart';
+import 'package:flutter_app/widget/bottomappbar/customconvexbottomsheet.dart';
+import 'package:flutter_app/widget/date/dataselectpickerscreen.dart';
+import 'package:flutter_app/widget/date/horizotallist/DateHorizotalListScreen.dart';
+import 'package:flutter_app/widget/listview/ListPage.dart';
+import 'package:flutter_app/widget/listview/scrollablelistview.dart';
+import 'package:flutter_app/widget/nAVIGATIONbAReXAMPLE.dart';
+import 'package:flutter_app/widget/tabs/tabexample.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,10 +48,11 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: FontExample(),
+      home: FirebaseOTPExample(),
       // home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
+
 }
 
 // sudo apt-get remove <application_name>

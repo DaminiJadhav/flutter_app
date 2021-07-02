@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:flutter_app/widget/bottomappbar/CustombottomAppBar.dart';
 import 'package:lottie/lottie.dart';
 
 class LottieAnimationExample extends StatefulWidget {
@@ -55,6 +56,15 @@ class _LottieAnimationExampleState extends State<LottieAnimationExample> with Ti
             reverse: true,
             animate: true,
           ),
+
+          RaisedButton(onPressed: (){
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) =>
+                        CustomBottomAppBar()));
+          },
+          child: Text("data"),)
 
           // Lottie.network(
           //   'https://assets8.lottiefiles.com/packages/lf20_HX0isy.json',

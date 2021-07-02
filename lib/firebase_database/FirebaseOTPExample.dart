@@ -124,7 +124,7 @@ class _FirebaseOTPExampleState extends State<FirebaseOTPExample> {
         _verificationId = verificationId;
       });
       if(_verificationId!=null){
-        _showMyDialog();
+        // _showMyDialog();
       }
 
     };

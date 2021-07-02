@@ -10,13 +10,14 @@ class FontExample extends StatefulWidget {
 class _FontExampleState extends State<FontExample> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Flutter"),
-      ),
-      body: Center(
+    // return Scaffold(
+    //   appBar: AppBar(
+    //     title: Text("Flutter"),
+    //   ),
+    //   body:
+      return Center(
         child: Text("Hello",style: TextStyle(fontFamily: 'Charlotte'),),
-      ),
-    );
+      );
+    // );
   }
 }
